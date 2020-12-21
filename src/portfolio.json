@@ -2,42 +2,42 @@
     {
         "name": "Overdeliver",
         "id": 1, 
-        "image": "./src/assets/portfolio/overdeliver.png",
+        "image": "./assets/portfolio/overdeliver.png",
         "description": "Delivery ratings app where users can interact with each other, learn about new restaurants that deliver, and discover how a restaurant's delivery service transfers.",
         "link": "https://shrouded-fortress-41826.herokuapp.com/"
     },
     {
         "name": "Avengers Assemble",
         "id": 2,
-        "image": "./src/assets/portfolio/avengersassemble.png",
+        "image": "./assets/portfolio/avengersassemble.png",
         "description": "Assemble your Avengers team to learn more about some of your favorite characters.",
         "link": "https://jesseparent.github.io/avengersassembled/"
     },
     {
         "name": "Run Buddy",
         "id": 3,
-        "image": "./src/assets/portfolio/runbuddy.png",
+        "image": "./assets/portfolio/runbuddy.png",
         "description": "Run Buddy is a fitness website for customers to learn more about their favorite gym and workout experience.",
         "link": "https://sarahgambles.github.io/run-buddy/"
     },
     {
         "name": "Foodfest",
         "id": 4,
-        "image": "./src/assets/portfolio/foodfest.png",
+        "image": "./assets/portfolio/foodfest.png",
         "description": "This is an event website where users can purchase tickets, see the schedule, and learn more about the event.",
         "link": "https://sarahgambles.github.io/food-festival/"
     },
     {
         "name": "Weather Dashboard",
         "id": 5,
-        "image": "./src/assets/portfolio/workscheduler",
+        "image": "./assets/portfolio/workscheduler",
         "description": "Weather Dashboard provides a way for users to search a city and explore the five-day forecast, including the wind, temperature, and UV index.",
         "link": "https://sarahgambles.github.io/weather-dashboard/"
     },
     {
         "name": "Workday Scheduler",
         "id": 6,
-        "image": "./src/assets/portfolio/weatherdash",
+        "image": "./assets/portfolio/weatherdash",
         "description": "This is an application for users to log and plan out their workday in a simple and streamlined manner.",
         "link": "https://sarahgambles.github.io/work-scheduler/"
     }

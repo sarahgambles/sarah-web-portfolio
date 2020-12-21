@@ -1,23 +1,23 @@
-import React from 'react';
-import { Document } from 'react-pdf'
+import React, { useState } from 'react';
+import { Document, Page } from 'react-pdf';
 
-function resume() {
+function Resume() {
     const [numPages, setNumPages] = useState(null);
 
-    function onDocumentLoadSuccess({ numPages}) {
-        setNumPages();
+    function onDocumentLoadSuccess({ numPages }) {
+        setNumPages(numPages);
     }
 
     return (
         <div>
-            <Document
-            file="resume.pdf"
-            onLoadSucces={onDocumentLoadSuccess}
-            >
-                <Page pageNumber={pageNumber} />
-            </Document>
-            <p> Resume </p>
+          <Document
+            file="./src/assets/resume/resume.pdf"
+            onLoadSuccess={onDocumentLoadSuccess}
+          >
+          </Document>
+          
         </div>
-    )
-
+      );
 }
+
+export default Resume;

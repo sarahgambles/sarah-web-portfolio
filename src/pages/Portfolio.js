@@ -1,6 +1,4 @@
-import React from './node_modules/react';
-import './style.css';
-
+import React from 'react';
 // Props are passed through our functional component
 
 function Portfolio(props) {
@@ -13,19 +11,18 @@ function Portfolio(props) {
           <div className="content">
             <ul>
               <li>
-                <strong></strong> {props.name}
+                <h3></h3> {props.name}
               </li>
               <li>
-                <strong>Description</strong> {props.description}
+                <p className="portfolioDescription"></p> {props.description}
               </li>
               <li>
-                <strong></strong> {props.link}
+                <p></p> {props.link}
               </li>
             </ul>
           </div>
           {/* The onClick method will invoke the removeFriends function passing through the value of props.id  */}
           <span onClick={() => props.removePortfolio(props.id)} className="remove">
-            𝘅
           </span>
         </div>
       );
