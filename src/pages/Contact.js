@@ -26,7 +26,7 @@ function ContactForm() {
             }
         } else {
             if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is require.`);
+                setErrorMessage(`${e.target.name} is required.`);
             } else {
                 setErrorMessage('');
             }
@@ -35,17 +35,18 @@ function ContactForm() {
 
     return (
         <section>
-            <h1 data-testid="h1tag">Contact</h1>
+            <container className="contactContainer">
+            <h1 data-testid="h1tag">CONTACT ME</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+                <div className="contactInput">
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
-                <div>
+                <div className="contactInput">
                     <label htmlFor="email">Email address:</label>
-                    <input type="email" name="email" defaultValue={message} onBlue={handleChange} />
+                    <input type="email" name="email" defaultValue={email} onBlue={handleChange} />
                 </div>
-                <div>
+                <div className="contactInput">
                     <label htmlFor="message">Message:</label>
                     <textarea name="message" rows="5" defaultValue={message} onBlue={handleChange} />
                 </div>
@@ -54,8 +55,9 @@ function ContactForm() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button data-testid="button" type="submit">Submit</button>
+                <button data-testid="button" type="submit" className="submitbtn">SUBMIT</button>
             </form>
+            </container>
         </section>
     );
 }

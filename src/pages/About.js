@@ -3,11 +3,11 @@ import profileImage from "../assets/profile/profile-image.png"
 
 function About() {
     return (
-    <section className="my-5">
+    <section className="aboutMe">
         <h1 id="about">ABOUT ME</h1>
-        <img src={profileImage} className="my-2" style={{ width: "35%" }} alt="profile" />
-        <div className="my-2">
-            <p>
+        <img src={profileImage} className="aboutImg" style={{ width: "35%" }} alt="profile" />
+        <div>
+            <p className="aboutDescription text-right">
             I am a web developer experienced in html, CSS, JavaScript, SQL, and more.
                 <br />
                 <br />
