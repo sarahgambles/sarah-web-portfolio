@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
-import coverImage from "./assets/cover/cover-image.png";
+
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Portfolio from './components/Portfolio';
@@ -12,6 +12,7 @@ function App() {
 
 
   return (
+    
     <Router>
     <Nav></Nav>
     <Switch>
@@ -21,12 +22,6 @@ function App() {
       
       </Switch>
     
-    <div>
-     
-      <div className="container-fluid">
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-    </div>
-    </div>
     
     <Footer></Footer>
     </Router>

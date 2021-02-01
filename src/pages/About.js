@@ -1,9 +1,17 @@
 import React from 'react';
-import profileImage from "../assets/profile/profile-image.png"
+import profileImage from "../assets/profile/profile-image.png";
+import coverImage from "../assets/cover/cover-image.png";
 
 function About() {
     return (
-    <section className="aboutMe">
+        <section className="aboutMe">
+        <div>
+     
+      <div className="container-fluid">
+      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+    </div>
+    </div>
+    
         <h1 id="about">ABOUT ME</h1>
         <img src={profileImage} className="aboutImg" style={{ width: "35%" }} alt="profile" />
         <div>
